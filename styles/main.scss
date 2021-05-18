@@ -1,16 +1,81 @@
-.keys{
-     box-shadow: 0px 4px 0px #b4a597,
+.keys {
+  box-shadow: 0px 4px 0px #b4a597;
 }
 
-.keys-blue{
-    box-shadow: 0px 4px 0px #404e72,
+.keys-blue {
+  box-shadow: 0px 4px 0px #404e72;
 }
 
-.keys-orange{
-    box-shadow: 0px 4px 0px 	#93261a,
+.keys-orange {
+  box-shadow: 0px 4px 0px #93261a;
 }
 
+.btn-Tthree {
+  background-color: #341c4f;
+  box-shadow: 0px 4px 0px #871c9c;
+}
 
-.font{
-    font-weight: 900;
+.btn-TtwoClear {
+  background-color: #377f86;
+  box-shadow: 0px 4px 0px #1b5f65;
+  color: white;
+}
+
+.btn-TthreeClear {
+  background-color: #58077d;
+  box-shadow: 0px 4px 0px #bc15f4;
+  color: white;
+}
+
+.btn-Tequal{
+   background-color: #00e0d1;
+  box-shadow: 0px 4px 0px #6cf9f2;
+  color: black;
+}
+
+.font {
+  font-weight: 900;
+}
+
+.switchbox {
+  width: 70px;
+  height: 24px;
+
+  border-radius: 20px;
+  position: relative;
+}
+
+.switchbox {
+  .boxa {
+    position: absolute;
+    top: 10%;
+    left: 4px;
+    width: 20px;
+    height: 80%;
+    background: #d03f2f;
+    border-radius: 20px;
+    transition: all 0.4s;
+  }
+
+  .boxb {
+    position: absolute;
+    top: 10%;
+    left: 20px;
+    width: 20px;
+    height: 80%;
+    background: #d03f2f;
+    border-radius: 20px;
+    transition: all 0.4s;
+  }
+
+  .boxc {
+    position: absolute;
+    top: 10%;
+    left: 46px;
+    width: 20px;
+    height: 80%;
+    background: #00e0d1;
+    border-radius: 20px;
+    transition: all 0.4s;
+  }
 }
